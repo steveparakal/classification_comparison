@@ -1,4 +1,4 @@
-# OSDS-Big-HW — Lazy Classification across 3 Datasets (Sklearn vs FCA/FCALC)
+# Lazy Classification across 3 Datasets (Sklearn vs FCA/FCALC)
 
 This repository contains a comparative study of classic supervised classifiers and lazy FCA-based classifiers across three real-world tabular datasets. The project compares standard scikit-learn models with classifiers based on Formal Concept Analysis (FCA), implemented using the FCALC library. All experiments (data download, preprocessing, training, tuning, and evaluation) are implemented in a single Jupyter notebook.
 
