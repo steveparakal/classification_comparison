@@ -4,8 +4,8 @@ This repository contains a comparative study of classic supervised classifiers a
 
 ## Files in this Repository
 
-- OSDA_BIG_HW.ipynb        Main notebook with all experiments
-- Big_HW_Report_OSDS.pdf  Written project report
+- Classification_Comparison.ipynb        Main notebook with all experiments
+- Classification_Comparison_Report.pdf  Written project report
 - README.md               Project description
 - LICENSE                 Apache License 2.0
 
@@ -80,7 +80,7 @@ FCA experiments may use dataset subsets to reduce runtime.
 
 Option 1 — Google Colab
 
-1. Open OSDA_BIG_HW.ipynb in Colab
+1. Open Classification_Comparison.ipynb in Colab
 2. Install dependencies:
    pip install opendatasets
 3. Clone FCALC:
@@ -99,13 +99,13 @@ Requirements:
 - Kaggle credentials
 
 Installation:
-git clone https://github.com/steveparakal/OSDS-Big-HW.git
-cd OSDS-Big-HW
+git clone https://github.com/steveparakal/Classification_Comparison.git
+cd Classification_Comparison
 pip install numpy pandas scikit-learn opendatasets
 git clone https://github.com/AndrewDiv/FCALC
 
 Run:
-jupyter notebook OSDA_BIG_HW.ipynb
+jupyter notebook Classification_Comparison.ipynb
 
 ## Reproducibility
 
@@ -120,7 +120,7 @@ The notebook prints:
 - Cross-validation metrics
 - Test Accuracy and Weighted F1-score
 
-Final discussion is provided in Big_HW_Report_OSDS.pdf.
+Final discussion is provided in Classification_Comparison_Report.pdf.
 
 ## License
 
